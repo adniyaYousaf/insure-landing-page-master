@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://grand-khapse-93aa1d.netlify.app/#)
+- Live Site URL: [ live site](https://grand-khapse-93aa1d.netlify.app/#)
 
 ## My process
 

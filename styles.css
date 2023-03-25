@@ -3,9 +3,7 @@
 html,
 body {
   margin: 0;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  max-height: 100vh;
 }
 
 /* Utility Classes*/

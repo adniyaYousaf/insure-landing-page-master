@@ -4,6 +4,7 @@ html,
 body {
   margin: 0;
   max-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 /* Utility Classes*/
@@ -117,11 +118,15 @@ p {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  font-family: "Karla", sans-serif;
+  color: hsl(273, 4%, 51%);
+
 }
-.link-item {
+.link-item{
   border: 2px solid transparent;
   margin-left: 1rem;
   padding: 0.5rem 1.3rem;
+  font-size: 15px;
 }
 .link-item:hover {
   color: black;
@@ -132,12 +137,12 @@ p {
   background: hsl(256, 26%, 20%);
 }
 .hero {
-  height: 35rem;
+  height: 40rem;
   position: relative;
   display: flex;
   padding-inline: 2rem;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 .hero::after {
   position: absolute;
@@ -162,7 +167,7 @@ p {
   width: 40%;
   display: block;
   position: relative;
-  padding-top: 2rem;
+ 
 }
 .line {
   height: 0.05rem;
@@ -172,7 +177,7 @@ p {
 }
 .heading {
   margin: 0;
-  font-size: 64px;
+  font-size: 69px;
 }
 .card-p {
   font-size: 13px;
@@ -181,7 +186,7 @@ p {
   width: 70%;
 }
 .img {
-  height: 38rem;
+  height: 41rem;
   width: 40%;
   background: url(/images/image-intro-desktop.jpg);
   background-position: center;
@@ -206,7 +211,7 @@ p {
   z-index: 1000;
 }
 .value-section {
-  height: 40rem;
+  height: 60rem ;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -238,13 +243,13 @@ p {
 .find-content {
   position: relative;
   width: 75%;
-  height: 13rem;
+  height: 17rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 4rem;
   font-size: 27px;
-  margin-bottom: 8rem;
+  margin-bottom: 15rem;
 }
 .find-content::after {
   position: absolute;

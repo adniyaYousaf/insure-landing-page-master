@@ -142,7 +142,7 @@ p {
   display: flex;
   padding-inline: 2rem;
   justify-content: center;
-  padding-top: 8rem;
+  padding-top: 7rem;
 }
 .hero::after {
   position: absolute;
@@ -242,14 +242,14 @@ p {
 }
 .find-content {
   position: relative;
-  width: 75%;
+  width: 78%;
   height: 17rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 4rem;
   font-size: 27px;
-  margin-bottom: 15rem;
+  margin-bottom: 12rem;
 }
 .find-content::after {
   position: absolute;
@@ -442,6 +442,7 @@ p {
     font-size: 13px;
     word-spacing: 0.1rem;
     line-height: 1.5rem;
+    width: 100%;
   }
 
   .img {
@@ -511,6 +512,9 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .column ul{
+    width: 17rem;
   }
   .col {
     text-align: center;
